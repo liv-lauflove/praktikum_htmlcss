@@ -28,7 +28,7 @@ body {
 #header img {
     width: 150px;
       height: 150px;
-      object-fit: cover; /* biar pas */
-      border-radius: 50%; /* bikin bulat */
+      object-fit: cover; 
+      border-radius: 50%; 
       border: 3px solid #333; 
 }
