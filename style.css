@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-image: url(./img/bg3.jpg);
+    background-color: #c8d9e6;
 }
 
 #header{
@@ -24,6 +24,7 @@ body{
 #header .info{
     display: flex;
     flex-direction: column;
+    line-height: 1.6;
 }
 #header h1{
     margin: 0;
@@ -66,22 +67,35 @@ section{
     padding: 20px;
     border-radius: 8px;
 }
-section #aboutme{
-    margin-top: 30px;
-}
-#aboutme{
-    color: #bad6eb;
+#aboutme {
     background-color: #081f5c;
+    color: #bad6eb;
+    padding: 30px;
+    border-radius: 8px;
 }
 
-#aboutme h2 {
+/* Container untuk teks & gambar */
+.aboutcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* jarak antara teks dan gambar */
+}
+
+#aboutme h2{
     color: #edf1f6;
 }
-
-#aboutme p {
+#aboutme p{
     line-height: 1.6;
+    max-width: 600px; /*batas lebar teks*/
 }
-
+.aboutimage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
 
 
 
