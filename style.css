@@ -1,11 +1,46 @@
 body{
     margin: 0px;
 }
+
+#header{
+    display: flex;
+    background-color: #f7f2eb;
+    align-items: center; 
+    gap: 20px; /* Jarak antara foto dan teks */
+    justify-content: center; /* Biar semua konten ada di tengah halaman */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+#header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 3px solid #081f5c; 
+}
+#header text{
+    display: flex;
+    flex-direction: column;
+}
+#header h1{
+    margin: 0;
+    font-size: 28px;
+    color: #081f5c;
+}
+#header p{
+    margin: 0;
+    font-size: 18px;
+    color: #081f5c;
+}
+
 main{
     margin:20px;
 }
+
 .navbar ul{
-    list-style: none;
+    list-style: none; /*hilangkan bullet list*/
     background-color: #081F5C ;
     padding: 0px;
     margin: 0px;
@@ -17,6 +52,7 @@ main{
     padding: 15px;
     display: block;
     text-align: center; 
+    font-weight: bold;
 }
 .navbar a:hover{
     background-color: #0b3d91;
@@ -25,30 +61,14 @@ main{
     float: left;
 }
 
-body {
-      margin: 0;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
-      font-family: sans-serif;
-      color: white;
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      background-size: 400% 400%;
-      animation: gradient 12s ease infinite;
-    }
-    @keyframes gradient {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; } 
-}
 
-#header {
-    display: flex
-}
-#header img {
-    width: 150px;
-      height: 150px;
-      object-fit: cover; 
-      border-radius: 50%; 
-      border: 3px solid #333; 
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    main{
+        width: 100px;
+    }
 }
