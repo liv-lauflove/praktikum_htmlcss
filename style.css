@@ -126,7 +126,8 @@ section#aboutme, section#education, section#hobbies, section#skills, section#con
     font-size: 18px;
 }
 #education li:hover{
-    background-color: #1552c3;
+    background-color: #ffe1e6;
+    color: #2c365a;
     transform: translateY(-3px);
 
 }
@@ -207,9 +208,44 @@ section#aboutme, section#education, section#hobbies, section#skills, section#con
     line-height: 1.5;
 }
 
-
-
-
+#contactme{
+    background-color: #3c507d; 
+    color: #d9cbc2;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+}
+#contactme h2{
+    color: #ffe1e6; 
+    margin-bottom: 20px;
+}
+#contactme p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffe1e6;
+}
+#contactme ul{
+    list-style: none; 
+    padding: 0;
+}
+#contactme li{
+    margin: 10px 0;
+    font-size: 18px;
+}
+#contactme a{
+    color: #c4bcbd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+#contactme a:hover{
+    color: #ffe1e6;
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 600px) {
     main{
