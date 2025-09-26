@@ -126,7 +126,7 @@ section#aboutme, section#education, section#hobbies, section#skills, section#con
     font-size: 18px;
 }
 #education li:hover{
-    background-color: #ffe1e6;
+    background-color: #7096d1;
     color: #2c365a;
     transform: translateY(-3px);
 
