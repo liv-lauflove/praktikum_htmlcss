@@ -45,6 +45,8 @@ main{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 .navbar a{
     color: #fff9f0;
@@ -57,9 +59,7 @@ main{
 .navbar a:hover{
     background-color: #0b3d91;
 }
-.navbar li{
-    float: left;
-}
+
 
 
 
