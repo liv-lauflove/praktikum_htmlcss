@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-image: url(./img/bg3.jpg);
 }
 
 #header{
@@ -20,7 +21,7 @@ body{
     border-radius: 50%; 
     border: 3px solid #081f5c; 
 }
-#header text{
+#header .info{
     display: flex;
     flex-direction: column;
 }
@@ -60,9 +61,26 @@ main{
     background-color: #0b3d91;
 }
 
+section{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+section #aboutme{
+    margin-top: 30px;
+}
+#aboutme{
+    color: #bad6eb;
+    background-color: #081f5c;
+}
 
+#aboutme h2 {
+    color: #edf1f6;
+}
 
-
+#aboutme p {
+    line-height: 1.6;
+}
 
 
 
