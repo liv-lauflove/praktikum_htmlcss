@@ -14,7 +14,7 @@ body{
     margin: 30px;
 }
 
-#header img {
+#header img{
     width: 150px;
     height: 150px;
     object-fit: cover; 
@@ -62,20 +62,19 @@ main{
     background-color: #0b3d91;
 }
 
-section{
-    margin: 40px;
+section#aboutme, section#education, section#hobbies, section#skills, section#contactme{
+    margin: 50px;
     padding: 20px;
     border-radius: 8px;
 }
-#aboutme {
+#aboutme{
     background-color: #081f5c;
     color: #bad6eb;
     padding: 30px;
     border-radius: 8px;
 }
 
-/* Container untuk teks & gambar */
-.aboutcontainer {
+.aboutcontainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,18 +83,90 @@ section{
 
 #aboutme h2{
     color: #edf1f6;
+    font-size: 24px;
 }
 #aboutme p{
     line-height: 1.6;
     max-width: 600px; /*batas lebar teks*/
+    font-size: 18px;
 }
-.aboutimage img {
+.aboutimage img{
     width: 250px;
     height: 250px;
     border-radius: 10px;
     object-fit: cover;
     border: 2px solid #fff;
 }
+
+#education{
+    background-color: #eee8df;
+    color: #2c365a;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 8px;
+}
+#education h2{
+    color: #2c365a;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#education ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#education li{
+    background-color: #0b3d91;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #edf1f6;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    font-size: 18px;
+}
+#education li:hover{
+    background-color: #1552c3;
+    transform: translateY(-3px);
+
+}
+#hobbies{
+    background-color: #334eac;
+    color: #edf1f6;
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 8px;
+    font-size: 18px;
+}
+#hobbies h2{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.hobbycontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+.hobbybox{
+    background-color: #0b3d91;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.hobbybox:hover{
+    background-color: #edf1f6;
+    color: #0b3d91;
+    transform: translateY(-5px);
+}
+.hobbybox img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
 
 
 
