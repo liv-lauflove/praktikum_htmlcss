@@ -1,8 +1,28 @@
-* { margin: 0;
-    padding: 5px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+body{
+    margin: 0px;
+}
+main{
+    margin:20px;
+}
+.navbar ul{
+    list-style: none;
+    background-color: #081F5C ;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #fff9f0;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center; 
+}
+.navbar a:hover{
+    background-color: #0b3d91;
+}
+.navbar li{
+    float: left;
 }
 
 body {
